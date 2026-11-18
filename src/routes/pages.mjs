@@ -65,7 +65,7 @@ router.get('/info', function (req, res, next) {
     info: info,
     isKube: isKube,
     isContainer: isContainer,
-  })
+  }
 })
 
 // =======================================================================
